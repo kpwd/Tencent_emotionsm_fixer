@@ -30,7 +30,7 @@ int main(int argc,char* arg[]){
 				printf("seek error\n");
 			}else{
 				//覆盖错误的文件头为正确的文件头。
-				printf("[%d]",fwrite(now_head,sizeof(char),6,f));
+				fwrite(now_head,sizeof(char),6,f);
 				fflush(f);
 				fclose(f);
 
