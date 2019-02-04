@@ -1,4 +1,6 @@
 # Tencent_emotionsm_fixer
+安卓QQ原创表情修复
+
 修复被企鹅在/sdcard/tencent/mobileQQ/emotionsm./xxx/× 下被破坏的gif文件的文件头。
 
 设a.out为本二进制程序
